@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StopWatch_LinkedList", "Tas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 13.6.2", "Task 13.6.2", "{CB35D39B-B14A-40FF-8ACF-CABCF598B71A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ten_Often_Words", "Task 13.6.2\Ten_Often_Words\Ten_Often_Words.csproj", "{E5DEA4B7-1D73-47AE-AE00-13E42A6DD33B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{09573C5C-8322-4C2E-8F87-4F37A5D99D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09573C5C-8322-4C2E-8F87-4F37A5D99D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09573C5C-8322-4C2E-8F87-4F37A5D99D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DEA4B7-1D73-47AE-AE00-13E42A6DD33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DEA4B7-1D73-47AE-AE00-13E42A6DD33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DEA4B7-1D73-47AE-AE00-13E42A6DD33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DEA4B7-1D73-47AE-AE00-13E42A6DD33B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5433766A-0866-4527-9509-D2FE3917FACF} = {7DDC0CF5-B3BB-49F9-815D-EC102866EDB1}
 		{09573C5C-8322-4C2E-8F87-4F37A5D99D2A} = {7DDC0CF5-B3BB-49F9-815D-EC102866EDB1}
+		{E5DEA4B7-1D73-47AE-AE00-13E42A6DD33B} = {CB35D39B-B14A-40FF-8ACF-CABCF598B71A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13DAA460-19A1-4CA4-835F-DC73CB4DB6E7}
