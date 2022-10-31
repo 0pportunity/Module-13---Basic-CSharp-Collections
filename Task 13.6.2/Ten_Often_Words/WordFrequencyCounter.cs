@@ -37,13 +37,16 @@ namespace Ten_Often_Words
             var wordQuantity = new Dictionary<string, int>();
             foreach (string word in allWords)
             {
-                if (wordQuantity.ContainsKey(word))
+                if (!word.Equals("")) // Исключение пустой строки
                 {
-                    wordQuantity[word] = wordQuantity[word] + 1;
-                }
-                else
-                {
-                   wordQuantity.Add(word, 1);
+                    if (wordQuantity.ContainsKey(word))
+                    {
+                        wordQuantity[word] = wordQuantity[word] + 1;
+                    }
+                    else
+                    {
+                        wordQuantity.Add(word, 1);
+                    }
                 }
             }
 
